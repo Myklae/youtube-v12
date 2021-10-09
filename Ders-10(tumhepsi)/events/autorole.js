@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const moment = require('moment');
 const chalk = require('chalk');
-const { prefix } = require('../config.json')
+const { prefix } = require('../ayarlar.json')
 const qdb = require('quick.db');
 let tarih = new Date().toLocaleString("tr-TR", { timeZone: "Asia/Istanbul"});
 
